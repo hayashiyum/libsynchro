@@ -185,8 +185,7 @@ export default {
 						repositoryIdRule: helpers.withMessage('* Only alphanumeric characters, digits and symbols ("-","_") are allowed.', repositoryIdRule)
 					},
 					repositoryUrl: { 
-						required: helpers.withMessage('* URL is required', required),
-						url: helpers.withMessage('* Must be URL format', url)
+						required: helpers.withMessage('* URL is required', required)
 					},
 					username: { required: helpers.withMessage('* Username is required', required) },
 					password: { required: helpers.withMessage('* Password is required', required) },
@@ -495,13 +494,13 @@ export default {
 
 			const repository = {
 				repositoryId: this.repository.repositoryId,
-				url: this.repository.url,
+				repositoryUrl: this.repository.repositoryUrl,
 				username: this.repository.username,
 				password: this.repository.password,
 			};
 			const uploadFileContents = this.multiFileForm.multiFileContent.split('\n');
 
-      // upload for each file
+      		// upload for each file
 			for (const line of uploadFileContents) {
 				const trimmedLine = line.trim();
 				if (!trimmedLine) {

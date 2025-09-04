@@ -2,10 +2,10 @@
     <footer class="app-footer">
         <div class="footer-content">
             <nav class="footer-nav">
-                <a class="footer-text">v0.0.1</a>
+                <a class="footer-text">v0.0.2</a>
                 <a href="https://github.com/hayashiyum/libsynchro" target="_blank" class="footer-link"><img
                         src="../assets/images/github-mark-white.png" alt="GitHub icon" width="23" height="23"></a>
-                <a href="https://github.com/hayashiyum/libsynchro/blob/v0.0.1/README.md#how-to-use" target="_blank" class="footer-link">How to use</a>
+                <a href="https://github.com/hayashiyum/libsynchro/blob/v0.0.2/README.md#how-to-use" target="_blank" class="footer-link">How to use</a>
             </nav>
             <p class="copyright">&copy; 2025 hayashiyum. All Rights Reserved.</p>
         </div>
