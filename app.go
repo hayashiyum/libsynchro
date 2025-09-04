@@ -75,7 +75,7 @@ func (a *App) AddServerXmlToFile(repository Repository) error {
 	// Read jaruper-settings.xml
 	content, err := os.ReadFile(JARUPER_SETTINGS_FILE_PATH)
 	if err != nil {
-		a.log("ERROR", "[ERROR] Failed to read jaruper-settings.xml")
+		a.log("ERROR", "[ERROR] Failed to read libsynchro-settings.xml")
 		return err
 	}
 
